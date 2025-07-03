@@ -1,0 +1,124 @@
+#MenuSuperior{
+    margin: 0px;
+    text-align: justify;
+    font-family: "inter";
+
+}
+#Logo{
+    margin-top: 50px;
+    margin-left: 75px;
+
+}
+#h1Superior{
+    margin-top: 45px;
+    margin-left: 199px;
+}
+#pSuperior{
+    margin-top: 25px;
+    padding-bottom: 100px;
+    margin-left: 199px;
+}
+#MenuSuperior{
+    background-image: url(imagens/backgroundSuperior.svg);
+    color: azure;
+
+}
+#MenuInformacional{
+    background-color: #eaECE5;
+    display: grid;
+    grid-auto-flow : column;
+    columns: auto;
+}
+.icon{
+    margin: 50px 0px 50px 50px;
+    padding: 15px;
+}
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+#tituloinferior{
+    color: rgb(88, 124, 172);
+    font-family: "inter";
+    margin: 15px;
+}
+#paragrafoinferior{
+    font-family: "inter";
+}
+#menucentro{
+    margin: 50px 25px 50px 100px;
+    display: grid;
+    grid-auto-flow:column;
+
+}
+#carrossel{
+    background-color: #247BA0;
+    
+}
+#titulocarrossel{
+    padding: 45px;
+    font-size: 20px;
+    color: #EAECE5;
+    text-align: center;
+}
+#alunos{
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+.card{
+    margin-left: 50px;
+    margin-bottom: 55PX;
+    
+}
+#setaesquerda{
+    display: none;
+}
+#bru{
+    display: none;
+}
+.seta{
+    margin-top: 55%;
+    cursor: pointer;
+}
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0,3s;
+}
+#tituloform{
+    font-size: 25px;
+    margin-top: 1%;
+    color: rgb(37, 37, 37);
+    font-family: "inter";
+}
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+#Formulario{
+    text-align: center;
+}
+button:hover{
+    transform: translateY(-5PX);
+    transition-duration: 0.2s;
+    box-shadow: 0px 15px 20px #17638342;
+}
+button{
+    border: 0;
+    width: 250px;
+    height: 40px;
+    background-color: #247BA0;
+    color: #f9faf6;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+}
+*{
+    margin:  0px;
+}
